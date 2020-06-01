@@ -1,0 +1,39 @@
+body{
+    margin: 2em;
+    background-color: lightcyan;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.copyright{
+    left: 0;
+    bottom: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.item_container{
+    display: grid;
+    grid-template-columns: 40px auto 40px;
+    outline: 1px solid gray;
+    margin: 1em;
+    width: 100%;
+    background-color: white;
+}
+
+.added_item{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0.5em;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+}
+
+
